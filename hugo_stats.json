@@ -7,6 +7,7 @@
       "div",
       "footer",
       "h1",
+      "h3",
       "head",
       "header",
       "html",
@@ -37,12 +38,15 @@
       "credit",
       "diplomas",
       "diplomas__taxonomy",
+      "full-width",
       "hero",
       "logo",
       "nav-accessibility",
+      "nav-link",
       "navbar",
       "page__404",
       "page__home",
+      "pages__section",
       "persons",
       "researchers__taxonomy",
       "sitemap__section",
@@ -51,7 +55,8 @@
     ],
     "ids": [
       "main",
-      "nav-toc"
+      "nav-toc",
+      "pages"
     ]
   }
 }
