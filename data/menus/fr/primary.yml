@@ -1,10 +1,6 @@
 ---
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
-- title: Portfolio
-  target: "/actualites/portfolio/"
+- title: Blog
+  target: "/actualites/blog/"
   kind: category
   children: []
 - title: Portfolio
