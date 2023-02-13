@@ -2,3 +2,15 @@ theme: osuny-hugo-theme-aaa
 paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
+params:
+  posts:
+    index:
+      show_categories: true
+      truncate_description: 200 # Set to 0 to disable truncate
+      layout: grid
+  pages:
+    index:
+      truncate_description: 200 # Set to 0 to disable truncate
+  persons:
+    index:
+      layout: grid
