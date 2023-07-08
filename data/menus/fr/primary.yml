@@ -1,12 +1,12 @@
 ---
 title: Primary
 items:
-- title: Blog
-  target: "/actualites/blog/"
-  kind: category
-  children: []
 - title: Portfolio
   target: "/actualites/portfolio/"
+  kind: category
+  children: []
+- title: Blog
+  target: "/actualites/blog/"
   kind: category
   children: []
 - title: À propos
