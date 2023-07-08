@@ -1,4 +1,51 @@
-.post .media
-    aspect-ratio: 1
-    img
+.logo
+    @include meta
+    text-decoration: none !important
+    font-weight: bold
+
+.active,
+.page__home .logo
+    color: $color-accent !important
+
+header#document-header
+    nav
+        margin-top: $spacing1
+        .container
+            display: block
+            .menu 
+                .nav-level-1 
+                    display: block
+                    > li 
+                        display: block
+                        > a
+                            padding-left: 0
+
+.post
+    .media
         aspect-ratio: 1
+        img
+            aspect-ratio: 1
+
+.block-posts
+    &--grid
+        .post-content
+            p,
+            .post-meta,
+            .post-categories
+                display: none
+    &--list
+        .post-content
+            .post-categories
+                display: none
+
+#document-footer
+    display: flex
+    flex-direction: column-reverse
+    .container
+        display: block !important
+        text-align: right
+        padding-bottom: 0 !important
+    .footer-legals
+        margin-top: $spacing0
+    .footer-logo
+        margin-top: px2rem(4)
