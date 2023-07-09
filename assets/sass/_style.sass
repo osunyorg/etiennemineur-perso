@@ -1,30 +1,70 @@
-.logo
-    @include meta
-    text-decoration: none !important
-    font-weight: bold
-
-.active,
-.page__home .logo
-    color: $color-accent !important
+.page__home
+    .logo
+        color: $color-accent !important
+header#document-header,
+footer#document-footer
+    .active
+        color: $color-accent !important
+    .logo
+        @include meta
+        text-decoration: none !important
+        font-weight: bold
 
 header#document-header
+    @include media-breakpoint-up(desktop)
+        position: relative !important
+        nav
+            position: absolute
+            margin-top: px2rem(10)
     nav
-        margin-top: $spacing1
         .container
-            display: block
-            .menu 
+            @include media-breakpoint-up(desktop)
+                display: block
+            .menu
+                &.is-opened
+                    height: 100vh
                 .nav-level-1 
                     display: block
                     > li 
                         display: block
+                        border-bottom: 0
                         > a
                             padding-left: 0
+.hero
+    @include media-breakpoint-up(desktop)
+        .content
+            h1
+                margin-top: $spacing5
+        &--with-image
+            padding-top: 0
+            .container
+                // padding-right: 0
+                .content
+                    flex-direction: column-reverse
+                    padding-top: 0
+                    padding-left: offset(4)
+                    hgroup
+                        margin-top: 0
+                        width: 100%
+                        h1
+                            margin-top: $spacing2
+                    figure
+                        width: calc(100% + 4rem)
 
+.posts__page.category--portfolio
+    
 .post
     .media
-        aspect-ratio: 1
+        aspect-ratio: 1.5
         img
-            aspect-ratio: 1
+            aspect-ratio: 1.5
+
+@include media-breakpoint-up(desktop)
+    .toc-container,
+    .post-sidebar
+        display: none
+    .blocks
+        margin-top: $spacing2
 
 .block-posts
     &--grid
@@ -37,6 +77,9 @@ header#document-header
         .post-content
             .post-categories
                 display: none
+
+.posts-navigation
+    border-top: 0
 
 #document-footer
     display: flex
