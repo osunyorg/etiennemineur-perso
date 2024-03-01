@@ -15,7 +15,7 @@ header#document-header
         position: relative !important
         nav
             position: absolute
-            margin-top: px2rem(10)
+            margin-top: pxToRem(10)
     nav
         .container
             @include media-breakpoint-up(desktop)
@@ -34,7 +34,7 @@ header#document-header
     @include media-breakpoint-up(desktop)
         .content
             h1
-                margin-top: $spacing5
+                margin-top: $spacing-7
         &--with-image
             padding-top: 0
             .container
@@ -47,7 +47,7 @@ header#document-header
                         margin-top: 0
                         width: 100%
                         h1
-                            margin-top: $spacing2
+                            margin-top: $spacing-4
                     figure
                         width: calc(100% + 4rem)
 
@@ -64,7 +64,7 @@ header#document-header
     .post-sidebar
         display: none
     .blocks
-        margin-top: $spacing2
+        margin-top: $spacing-4
 
 .block-posts
     &--grid
@@ -89,6 +89,6 @@ header#document-header
         text-align: right
         padding-bottom: 0 !important
     .footer-legals
-        margin-top: $spacing0
+        margin-top: $spacing-2
     .footer-logo
-        margin-top: px2rem(4)
+        margin-top: pxToRem(4)
