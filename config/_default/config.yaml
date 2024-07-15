@@ -9,12 +9,7 @@ params:
     position: hero
   posts:
     index:
-      show_categories: true
-      truncate_description: 200 # Set to 0 to disable truncate
       layout: grid
-  pages:
-    index:
-      truncate_description: 200 # Set to 0 to disable truncate
-  persons:
+ persons:
     index:
       layout: grid
