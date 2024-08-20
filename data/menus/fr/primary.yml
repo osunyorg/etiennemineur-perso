@@ -1,5 +1,5 @@
 ---
-title: Primary
+title: Menu principal
 items:
 - title: À propos
   target: "/a-propos/"
@@ -7,6 +7,10 @@ items:
   children: []
 - title: Blog
   target: "/actualites/"
+  kind: page
+  children: []
+- title: Portfolio
+  target: "/projets/"
   kind: page
   children: []
 
