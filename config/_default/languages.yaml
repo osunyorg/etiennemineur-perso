@@ -13,7 +13,7 @@ fr:
       instagram: >-
         https://www.instagram.com/etienne_mineur/
   permalinks:
-    posts: /actualites/:year-:month-:day-:slug/
+    posts: /blog/:year-:month-:day-:slug/
     projects: /projets/:year-:slug/
     projects_categories: /projets/:slug/
   taxonomies:
