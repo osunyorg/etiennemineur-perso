@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Portfolio
-  target: "/projets/"
+  target: "/portfolio/"
   kind: page
   children: []
 
