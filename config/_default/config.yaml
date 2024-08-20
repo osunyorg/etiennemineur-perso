@@ -10,6 +10,6 @@ params:
   posts:
     index:
       layout: grid
- persons:
+  persons:
     index:
       layout: grid
