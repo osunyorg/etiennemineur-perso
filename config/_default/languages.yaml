@@ -8,6 +8,8 @@ fr:
   languageName: Français
   params:
     social:
+      email: >-
+        etienne@volumique.com
       linkedin: >-
         https://www.linkedin.com/in/etiennemineur/
       instagram: >-
