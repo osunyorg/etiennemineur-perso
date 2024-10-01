@@ -15,9 +15,10 @@ fr:
       instagram: >-
         https://www.instagram.com/etienne_mineur/
   permalinks:
-    posts: /blog/:year-:month-:day-:slug/
     projects: /portfolio/:year-:slug/
     projects_categories: /portfolio/:slug/
+    posts: /blog/:year-:month-:day-:slug/
+    posts_categories: /blog/:slug/
   taxonomies:
     administrator: administrators
     author: authors
