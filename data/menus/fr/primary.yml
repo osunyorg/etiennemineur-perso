@@ -5,12 +5,15 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+  file: content/fr/pages/a-propos/_index.html
 - title: Blog
   target: "/blog/"
   kind: page
   children: []
+  file: content/fr/posts/_index.html
 - title: Portfolio
   target: "/portfolio/"
   kind: page
   children: []
+  file: content/fr/projects/_index.html
 
