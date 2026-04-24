@@ -15,34 +15,34 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/projets/index.html"
+from = "/projets/"
 to = "/portfolio/"
 
 [[redirects]]
-from = "/projets/2022-paponimos/index.html"
+from = "/projets/2022-paponimos/"
 to = "/portfolio/2022-paponimos/"
 
 [[redirects]]
-from = "/projets/2022-paponimos-elastiques/index.html"
+from = "/projets/2022-paponimos-elastiques/"
 to = "/portfolio/2022-paponimos-elastiques/"
 
 [[redirects]]
-from = "/actualites/index.html"
+from = "/actualites/"
 to = "/blog/"
 
 [[redirects]]
-from = "/actualites/2023-01-27-apres-quatre-mois-de-workshops-dans-les-ecoles-de-design-utilisant-les-intelligences-artificielles/index.html"
+from = "/actualites/2023-01-27-apres-quatre-mois-de-workshops-dans-les-ecoles-de-design-utilisant-les-intelligences-artificielles/"
 to = "/blog/2023-01-27-apres-quatre-mois-de-workshops-dans-les-ecoles-de-design-utilisant-les-intelligences-artificielles/"
 
 [[redirects]]
-from = "/actualites/2022-05-16-reflexions-provisoires-liees-aux-intelligences-artificielles/index.html"
+from = "/actualites/2022-05-16-reflexions-provisoires-liees-aux-intelligences-artificielles/"
 to = "/blog/2022-05-16-reflexions-provisoires-liees-aux-intelligences-artificielles/"
 
 [[redirects]]
-from = "/projets/2022-typographies-artificielles/index.html"
+from = "/projets/2022-typographies-artificielles/"
 to = "/portfolio/2022-typographies-artificielles/"
 
 [[redirects]]
-from = "/actualites/2022-09-27-intelligences-artificielles-et-design-dans-les-ecoles-en-2022/index.html"
+from = "/actualites/2022-09-27-intelligences-artificielles-et-design-dans-les-ecoles-en-2022/"
 to = "/blog/2022-09-27-intelligences-artificielles-et-design-dans-les-ecoles-en-2022/"
 
