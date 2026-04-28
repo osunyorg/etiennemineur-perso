@@ -14,3 +14,35 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
+[[redirects]]
+from = "/projets/index.html"
+to = "/portfolio/"
+
+[[redirects]]
+from = "/projets/2022-paponimos/index.html"
+to = "/portfolio/2022-paponimos/"
+
+[[redirects]]
+from = "/projets/2022-paponimos-elastiques/index.html"
+to = "/portfolio/2022-paponimos-elastiques/"
+
+[[redirects]]
+from = "/actualites/index.html"
+to = "/blog/"
+
+[[redirects]]
+from = "/actualites/2023-01-27-apres-quatre-mois-de-workshops-dans-les-ecoles-de-design-utilisant-les-intelligences-artificielles/index.html"
+to = "/blog/2023-01-27-apres-quatre-mois-de-workshops-dans-les-ecoles-de-design-utilisant-les-intelligences-artificielles/"
+
+[[redirects]]
+from = "/actualites/2022-05-16-reflexions-provisoires-liees-aux-intelligences-artificielles/index.html"
+to = "/blog/2022-05-16-reflexions-provisoires-liees-aux-intelligences-artificielles/"
+
+[[redirects]]
+from = "/projets/2022-typographies-artificielles/index.html"
+to = "/portfolio/2022-typographies-artificielles/"
+
+[[redirects]]
+from = "/actualites/2022-09-27-intelligences-artificielles-et-design-dans-les-ecoles-en-2022/index.html"
+to = "/blog/2022-09-27-intelligences-artificielles-et-design-dans-les-ecoles-en-2022/"
+
