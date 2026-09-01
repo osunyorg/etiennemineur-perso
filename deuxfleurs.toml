@@ -19,6 +19,10 @@ from = "/projets/index.html"
 to = "/portfolio/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/poster-typo-02pdf/"
+
+[[redirects]]
 from = "/projets/2022-paponimos/index.html"
 to = "/portfolio/2022-paponimos/"
 
